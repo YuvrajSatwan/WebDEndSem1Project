@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style type="text/css">
-        .header{
+       .header{
             font-size:40px;
             color: white;
             margin-top: 8px;
@@ -63,6 +63,7 @@
             background: linear-gradient(to left, #4faffe, #9000fe);
             background-size: 200% 200%;
             animation: gradientAnimation 5s infinite linear;
+          
         }
         @keyframes gradientAnimation {
             0% { background-position: 50% 50%; }
@@ -70,9 +71,14 @@
         }
         .main{
             background-color: white;
-            width: 1500px;
+            width:auto;
+            border-radius:20px;
             margin-top: 35px;
-            
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+            background: linear-gradient(to left ,white,rgb(255, 224, 49));
+            padding: 70px;
 
         }
         .book-h{
@@ -119,21 +125,22 @@
             
             
         }
+      
         .feed {
-        border: 2px solid black;
-        padding: 20px;
+        border: 2px ;
+        padding: 40px;
         border-radius: 10px;
         background-color: #f9f9f9;
-        width: 50%;
-        max-width: 500px;
-        text-align: center;
+    
+        
+        text-align: cente;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         margin-top: 20px;
     }
 
     .form-group {
         display: flex;
-        flex-direction: column;
+        
         text-align: left;
         margin-bottom: 15px;
     }
@@ -165,6 +172,7 @@
         border-radius: 5px;
         cursor: pointer;
         transition: 0.3s;
+        margin-left: 300px;
     }
 
     .submit:hover {
@@ -173,6 +181,7 @@
     }
 
     .container {
+    
         display: flex;
         justify-content: center;
         align-items: center;
@@ -218,7 +227,7 @@
 
     <details>
         <summary>Purchase Links</summary>
-        <p>Available at Amazon, Flipkart, and major bookstores.</p>
+        <p><a href="https://www.amazon.com/Good-Vibes-Life-Self-Love-Unlocking/dp/1788171829">Amazon</a></p>
     </details>
     <div class="container">
         <div class="feed">

@@ -140,8 +140,9 @@ body {
     text-align: center;
     padding: 15px;
     width: 100%;
-    position: fixed;
+    position:;
     bottom: 0;
+   
 }
 
 /* Responsive */
